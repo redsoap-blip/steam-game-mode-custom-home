@@ -1,6 +1,6 @@
 # steam-game-mode-custom-home
 
-一组面向 Steam 游戏模式 / 大屏幕模式的独立 CSS Loader 小主题。每个主题只做一件事，装好后会作为独立条目出现在 CSS Loader 的主题列表里，用条目自带的开关启用或停用；主题内部没有额外选项，打开即按预设生效。
+一组面向 Steam 游戏模式 / 大屏幕模式的独立 CSS Loader 小主题。每个主题只做一件事，装好后会作为独立条目出现在 CSS Loader 的主题列表里，用条目自带的开关启用或停用。
 
 [English README](README.md)
 
