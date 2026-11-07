@@ -26,8 +26,6 @@ The tab-hiding rule used by `Recent Games At Bottom` follows the approach of [No
 2. In CSS Loader (Decky plugin) open **Themes** → **Install from file** and pick the zip.
 3. The theme appears in the list as its own entry with a toggle; switch it on.
 
-The zip already has the right layout (`<Theme Name>/theme.json`, `css/…`, `LICENSE`), so CSS Loader can install it directly.
-
 ### Manually
 
 Copy the theme folder (for example `Hide Friends Playing/`) into `~/homebrew/themes/` on the Steam Deck, then reload CSS Loader. Each folder with a `theme.json` shows up as a separate theme entry.

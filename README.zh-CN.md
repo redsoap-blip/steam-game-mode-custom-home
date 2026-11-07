@@ -26,8 +26,6 @@
 2. 在 CSS Loader（Decky 插件）里打开 **Themes** → **Install from file**，选择该 zip。
 3. 主题会以独立条目出现在列表里并带开关，打开即可。
 
-zip 内部已经是 `主题名/theme.json`、`css/…`、`LICENSE` 的结构，CSS Loader 可直接安装。
-
 ### 手动安装
 
 把主题目录（例如 `Hide Friends Playing/`）整个复制到 Steam Deck 的 `~/homebrew/themes/`，然后重新加载 CSS Loader。每个含 `theme.json` 的目录都会成为列表中的一个独立主题。
