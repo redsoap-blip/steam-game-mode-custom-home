@@ -9,7 +9,7 @@
 | 主题 | 作用 | 版本 |
 | --- | --- | --- |
 | [Hide Friends Playing](Hide%20Friends%20Playing/) | 隐藏游戏卡片上「好友正在玩」的小头像。 | 1.0.0 |
-| [Recent Games At Bottom](Recent%20Games%20At%20Bottom/) | 把「最近游戏」一行（含名称与时长标签）贴到主界面底部。 | 1.0.0 |
+| [Recent Games At Bottom](Recent%20Games%20At%20Bottom/) | 把「最近游戏」一行（含名称与时长标签）贴到主界面底部。 | 1.0.1 |
 | [Titles Above Cards](Titles%20Above%20Cards/) | 把游戏标题移到卡片上方，并隐藏此时多余的「最近游戏」标题。 | 1.0.0 |
 
 ## 安装

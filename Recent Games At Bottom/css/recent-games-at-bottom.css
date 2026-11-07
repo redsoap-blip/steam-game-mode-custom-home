@@ -62,3 +62,16 @@
   height: calc(100% + var(--recent-bottom-art-pad));
   transform: translateY(calc(100% - 100vh - var(--recent-bottom-art-pad) + var(--recent-bottom-gap) + 8px));
 }
+
+/* 7) Steam renders every shelf below the hero (the "Recently Updated" row and
+      similar) inside the tabbed content area. With the Recent Games cluster
+      pinned to the bottom edge that area shows through underneath it and
+      overlaps the docked cards, so it is removed entirely. */
+.gamepadpage_GamepadPage .gamepadhome_TabbedContent .gamepadtabbedpage_GamepadTabbedPage div,
+.gamepadpage_GamepadPage .gamepadhome_TabbedContent .gamepadtabbedpage_GamepadTabbedPage button {
+  display: none !important;
+}
+
+.gamepadhome_TabbedContent {
+  display: none;
+}

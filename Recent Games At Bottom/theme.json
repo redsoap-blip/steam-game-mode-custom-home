@@ -1,7 +1,7 @@
 {
   "name": "Recent Games At Bottom",
   "description": "Docks the Recent Games row, with its labels, to the bottom of the Steam home screen.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Honchane",
   "manifest_version": 9,
   "tabs": {
