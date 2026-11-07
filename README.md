@@ -4,6 +4,12 @@ A small collection of standalone CSS Loader themes for Steam Game Mode / Big Pic
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
+## Recommended companion
+
+These three themes are the individual features taken out of [tvdeck](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe), the full home-screen overhaul they were extracted from. They work on their own, but they are designed to sit on top of tvdeck and look best that way — install tvdeck from DeckThemes, then add only the pieces you want as separate toggles here.
+
+If you do run both, turn **off** the matching options inside tvdeck (`Hide friends playing`, `Recent Games At Bottom`, `Titles Above Cards`) and let these standalone themes provide them instead. Enabling both copies at once stacks the same rules twice, which gains nothing and makes it harder to tell which toggle is responsible.
+
 ## Themes
 
 | Theme | What it does | Version |
