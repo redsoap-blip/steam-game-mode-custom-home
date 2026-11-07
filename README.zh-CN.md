@@ -32,6 +32,8 @@
 
 `Recent Games At Bottom` 用到的隐藏 tab 规则沿用了 [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe) 的做法，那是 2023 年发布的第三方 DeckThemes 主题，并非本仓库作者发布。
 
+本项目还参考了 [Switch Like Home by Sims](https://deckthemes.com/themes/view?themeId=9ac2bf60-66c5-4f50-aa6b-f897465ba328)（v1.4，2024 年）与 [No Friend Playing Icon by Luna-Terra](https://deckthemes.com/themes/view?themeId=88363437-0fc3-44f7-9ae4-0ced63893aca)（2025 年），两者同为第三方 DeckThemes 主题，均非本仓库作者发布。
+
 ## License
 
 MIT，见 [LICENSE](LICENSE)。

@@ -32,6 +32,8 @@ These themes are derived from **tvdeck** (https://github.com/redsoap-blip/tvdeck
 
 The tab-hiding rule used by `Recent Games At Bottom` follows the approach of [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe), a third-party DeckThemes theme from 2023 that is not published by this repository's author.
 
+This project also drew on [Switch Like Home by Sims](https://deckthemes.com/themes/view?themeId=9ac2bf60-66c5-4f50-aa6b-f897465ba328) (v1.4, 2024) and [No Friend Playing Icon by Luna-Terra](https://deckthemes.com/themes/view?themeId=88363437-0fc3-44f7-9ae4-0ced63893aca) (2025), both third-party DeckThemes themes not published by this repository's author.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
