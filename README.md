@@ -1,6 +1,6 @@
 # steam-game-mode-custom-home
 
-A small collection of standalone CSS Loader themes for Steam Game Mode / Big Picture. Each theme does exactly one thing, installs on its own, and has no options — flip the toggle and it applies.
+A small collection of standalone CSS Loader themes for Steam Game Mode / Big Picture. Each theme does exactly one thing and appears as its own entry in the CSS Loader theme list, enabled with that entry's toggle; there are no extra options inside — flip it on and the preset applies.
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
