@@ -1,0 +1,43 @@
+/* Moves game titles above the tile instead of below it, and hides the
+   "Recent Games" heading that becomes redundant once the name sits on the tile. */
+
+:root {
+  /* Extra room between a tile and the title above it. */
+  --titles-above-gap: 12px;
+  /* One stacking level above the focused tile wrapper, which Steam paints on z-index 20. */
+  --titles-above-z: 21;
+}
+
+/* The heading is no longer needed once the title is on the tile. */
+.gamepadhome_RecentSection.Panel
+  .gamepadhomerecentgames_RecentGamesHeader {
+  display: none;
+}
+
+/* Hang the bottom edge of the label on the top edge of the tile: the block grows
+   upwards, so the exact label height does not have to be known. */
+.gamepadhome_RecentSection.Panel
+  .gamepadhomerecentgames_RecentGamesInnerContainer
+  .basicgamecarousel_CarouselGameLabelWrapper {
+  position: absolute;
+  bottom: calc(100% + var(--titles-above-gap));
+  transform: none;
+  width: max-content;
+  max-width: min(42vw, 420px);
+  z-index: var(--titles-above-z);
+}
+
+/* The label now lives outside the carousel box, so the containers must not clip it. */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesContainer,
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesInnerContainer {
+  overflow: visible !important;
+}
+
+/* Keep the label zone above the card row free: 60px = 52px label min-height +
+   4px bottom padding + 4px reserve. The top 14px of the label may be clipped at
+   the grid edge, no text sits there. */
+.gamepadhome_RecentSection.Panel
+  .gamepadhomerecentgames_RecentGamesInnerContainer
+  .ReactVirtualized__Grid {
+  padding-top: calc(var(--titles-above-gap) + 60px);
+}

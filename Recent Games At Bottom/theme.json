@@ -1,0 +1,25 @@
+{
+  "name": "Recent Games At Bottom",
+  "description": "Docks the Recent Games row, with its labels, to the bottom of the Steam home screen.",
+  "version": "1.0.0",
+  "author": "Honchane",
+  "manifest_version": 9,
+  "tabs": {
+    "all": [
+      "SP"
+    ],
+    "sp": [
+      "SP"
+    ],
+    "default": [
+      "all"
+    ]
+  },
+  "inject": {
+    "css/recent-games-at-bottom.css": [
+      "sp"
+    ]
+  },
+  "patches": [],
+  "id": "8b1d47e3-6c92-4f08-9d5b-a3e7c2f80194"
+}

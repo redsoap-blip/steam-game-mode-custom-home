@@ -1,0 +1,25 @@
+{
+  "name": "Hide Friends Playing",
+  "description": "Hides the friend avatars shown on game tiles when friends are playing that game.",
+  "version": "1.0.0",
+  "author": "Honchane",
+  "manifest_version": 9,
+  "tabs": {
+    "all": [
+      "SP"
+    ],
+    "sp": [
+      "SP"
+    ],
+    "default": [
+      "all"
+    ]
+  },
+  "inject": {
+    "css/hide-friends-playing.css": [
+      "sp"
+    ]
+  },
+  "patches": [],
+  "id": "4c8e2f61-9b3d-4a57-8e42-1f6d9a0b7c35"
+}

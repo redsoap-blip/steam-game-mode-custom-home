@@ -1,0 +1,25 @@
+{
+  "name": "Titles Above Cards",
+  "description": "Moves game titles above the tiles and hides the Recent Games heading.",
+  "version": "1.0.0",
+  "author": "Honchane",
+  "manifest_version": 9,
+  "tabs": {
+    "all": [
+      "SP"
+    ],
+    "sp": [
+      "SP"
+    ],
+    "default": [
+      "all"
+    ]
+  },
+  "inject": {
+    "css/titles-above-cards.css": [
+      "sp"
+    ]
+  },
+  "patches": [],
+  "id": "2e6f90a5-3d18-4c7b-b6e9-5a04f2c8d371"
+}

@@ -1,0 +1,7 @@
+/* Hide the friend-avatar bar that Steam draws on game tiles when friends are
+   playing that game (home "Recent Games", library grid, "Up Next", downloads,
+   friends activity and the game detail page). */
+
+.BasicUI .appportrait_FriendsBar.appportrait_IconsView {
+  display: none;
+}

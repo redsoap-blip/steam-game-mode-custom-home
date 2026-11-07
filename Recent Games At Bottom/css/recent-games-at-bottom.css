@@ -1,0 +1,64 @@
+/* Docks the "Recent Games" row (cards plus game name/playtime labels) to the
+   bottom of the home screen. */
+
+:root {
+  /* Extra room between a card and the label zone below it. */
+  --recent-bottom-gap: 12px;
+  /* Original top padding of the section artwork, used by the offset below. */
+  --recent-bottom-art-pad: clamp(54px, 24vh, 210px);
+}
+
+/* 1) The section itself only positions the card cluster. */
+.gamepadhome_RecentSection {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none;
+  overflow: visible;
+  /* Room for the label zone pushed down by --recent-bottom-gap, otherwise the
+     second line (playtime) falls out of the viewport. */
+  padding-bottom: calc(var(--recent-bottom-gap) + 8px);
+  box-sizing: border-box;
+}
+
+/* 2) Keep the container compact: no 24vh padding and no big-art height, so
+      heading and card row sit at the bottom as one cluster. */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesContainer {
+  height: auto !important;
+  padding-top: 0 !important;
+}
+
+/* 3) Re-enable focus/keyboard input without letting the artwork layer swallow clicks. */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesInnerContainer {
+  pointer-events: auto;
+}
+
+/* 4) Keep the "Recent Games" heading visible (Steam fades it out via HeaderExit). */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesHeaderLabel {
+  opacity: 0.7 !important;
+}
+
+/* 5) Do not clip the label zone: the fixed 52px height plus the offset is not
+      enough for two lines. */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesContainer,
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesInnerContainer,
+.gamepadhome_RecentSection .basicgamecarousel_CarouselGameLabel,
+.gamepadhome_RecentSection .basicgamecarousel_CarouselGameLabelWrapper {
+  overflow: visible !important;
+}
+
+.gamepadhome_RecentSection .basicgamecarousel_CarouselGameLabelWrapper {
+  height: auto !important;
+  min-height: 52px;
+  padding-bottom: 4px;
+}
+
+/* 6) Keep the large artwork at the top while the cluster is docked at the
+      bottom: height = cluster height (100%) + original 24vh padding, shifted up
+      so it starts at y=0 of the viewport. */
+.gamepadhome_RecentSection .gamepadhomerecentgames_RecentGamesBackgroundContainer {
+  height: calc(100% + var(--recent-bottom-art-pad));
+  transform: translateY(calc(100% - 100vh - var(--recent-bottom-art-pad) + var(--recent-bottom-gap) + 8px));
+}

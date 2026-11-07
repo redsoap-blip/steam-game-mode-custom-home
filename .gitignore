@@ -1,0 +1,12 @@
+# CSS Loader per-theme runtime state, never commit it
+config_USER.json
+
+# Release artifacts built locally
+dist/
+*.zip
+
+# Temporary and editor files
+*.tmp
+*.bak
+*~
+.DS_Store
