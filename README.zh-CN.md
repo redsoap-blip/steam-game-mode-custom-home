@@ -4,14 +4,6 @@
 
 [English README](README.md)
 
-## 推荐搭配
-
-这三个主题是从 [tvdeck](https://github.com/redsoap-blip/tvdeck) 里拆出来的独立功能，tvdeck 才是它们原本所属的整屏主界面主题。它们可以单独使用，但设计上是叠在 tvdeck 之上，搭配起来效果最好——从 tvdeck 仓库安装，再把想要的功能以独立开关的形式加在这里。
-
-如果两者同时启用，请把 tvdeck 里对应的三个开关（`Hide friends playing`、`Recent Games At Bottom`、`Titles Above Cards`）**关掉**，交给这些独立主题来提供。同一套规则开两份不会带来额外效果，只会让人分不清是哪个开关在起作用。
-
-`Recent Games At Bottom` 用到的隐藏 tab 规则沿用了 [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe) 的做法：那是 2023 年发布的第三方 DeckThemes 主题，并非本仓库作者发布。这里只作为参考链接，你不需要安装它，本主题已经自带该规则。
-
 ## 主题列表
 
 | 主题 | 作用 | 版本 |

@@ -4,14 +4,6 @@ A small collection of standalone CSS Loader themes for Steam Game Mode / Big Pic
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
-## Recommended companion
-
-These three themes are individual features taken out of [tvdeck](https://github.com/redsoap-blip/tvdeck), the full home-screen theme they were extracted from. They work on their own, but they are designed to sit on top of tvdeck and look best that way: install tvdeck from its repository, then add only the pieces you want as separate toggles here.
-
-If you do run both, turn **off** the matching options inside tvdeck (`Hide friends playing`, `Recent Games At Bottom`, `Titles Above Cards`) and let these standalone themes provide them instead. Enabling both copies at once stacks the same rules twice, which gains nothing and makes it harder to tell which toggle is responsible.
-
-The tab-hiding rule that `Recent Games At Bottom` relies on follows the long-standing approach of [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe), a third-party DeckThemes theme from 2023 that is not published by this repository's author. It is linked for reference only; you do not need it, because this theme already contains that rule.
-
 ## Themes
 
 | Theme | What it does | Version |
