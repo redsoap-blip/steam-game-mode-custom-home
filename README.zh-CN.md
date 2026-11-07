@@ -30,14 +30,6 @@
 
 把主题目录（例如 `Hide Friends Playing/`）整个复制到 Steam Deck 的 `~/homebrew/themes/`，然后重新加载 CSS Loader。每个含 `theme.json` 的目录都会成为列表中的一个独立主题。
 
-## 与 tvdeck 同时启用
-
-这些主题提取自 [tvdeck](https://github.com/redsoap-blip/tvdeck)，可以与它同时启用，但效果会重叠：
-
-- `Hide Friends Playing`、`Recent Games At Bottom`、`Titles Above Cards` 与 tvdeck 中同名开关一一对应。同时打开独立主题和 tvdeck 对应开关不会有副作用，只是重复——选一个即可。
-- 保留 tvdeck 自己的开关，独立主题不会带来额外变化；关掉 tvdeck 开关、打开独立主题，效果一样。
-- `Recent Games At Bottom` 与 `Titles Above Cards` 调整的是同一个轮播区域。两者同时启用是支持的（tvdeck 本身就是这么组合的），只是标题会落在贴底的那一行上方。
-
 ## Credits
 
 这些主题派生自 **tvdeck**（https://github.com/redsoap-blip/tvdeck），而 tvdeck 又派生自 K€YOZ 的 **tvOS Deck**（https://github.com/zoyekerako/tvos-deck），两者均以 MIT 协议发布。上游版权声明完整保留在 [LICENSE](LICENSE) 中。

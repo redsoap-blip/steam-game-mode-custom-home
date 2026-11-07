@@ -30,14 +30,6 @@ The tab-hiding rule used by `Recent Games At Bottom` follows the approach of [No
 
 Copy the theme folder (for example `Hide Friends Playing/`) into `~/homebrew/themes/` on the Steam Deck, then reload CSS Loader. Each folder with a `theme.json` shows up as a separate theme entry.
 
-## Using alongside tvdeck
-
-These themes are extracted from [tvdeck](https://github.com/redsoap-blip/tvdeck) and can be enabled at the same time as it, but the results overlap:
-
-- `Hide Friends Playing`, `Recent Games At Bottom` and `Titles Above Cards` correspond 1:1 to the tvdeck options of the same names. Enabling both the standalone theme and the tvdeck option is harmless but redundant — pick one.
-- If you keep tvdeck's own option on, the standalone theme adds nothing; if you turn the tvdeck option off and the standalone theme on, the result is the same.
-- `Recent Games At Bottom` and `Titles Above Cards` both reposition the same carousel. Enabling both is supported (tvdeck ships them together), but the labels end up above the docked row.
-
 ## Credits
 
 These themes are derived from **tvdeck** (https://github.com/redsoap-blip/tvdeck), which is itself derived from **tvOS Deck** by K€YOZ (https://github.com/zoyekerako/tvos-deck), both released under the MIT License. The upstream copyright notice is reproduced in [LICENSE](LICENSE).
