@@ -4,10 +4,6 @@
 
 [English README](README.md)
 
-## 推荐搭配
-
-`Recent Games At Bottom` 用到的隐藏 tab 规则沿用了 [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe) 的做法：那是 2023 年发布的第三方 DeckThemes 主题，并非本仓库作者发布。这里只作为参考链接。
-
 ## 主题列表
 
 | 主题 | 作用 | 版本 |
@@ -33,6 +29,8 @@
 ## Credits
 
 这些主题派生自 **tvdeck**（https://github.com/redsoap-blip/tvdeck），而 tvdeck 又派生自 K€YOZ 的 **tvOS Deck**（https://github.com/zoyekerako/tvos-deck），两者均以 MIT 协议发布。上游版权声明完整保留在 [LICENSE](LICENSE) 中。
+
+`Recent Games At Bottom` 用到的隐藏 tab 规则沿用了 [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe) 的做法，那是 2023 年发布的第三方 DeckThemes 主题，并非本仓库作者发布。
 
 ## License
 
