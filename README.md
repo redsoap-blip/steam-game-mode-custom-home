@@ -9,8 +9,10 @@ A small collection of standalone CSS Loader themes for Steam Game Mode / Big Pic
 | Theme | What it does | Version |
 | --- | --- | --- |
 | [Hide Friends Playing](Hide%20Friends%20Playing/) | Hides the friend avatars Steam draws on game tiles when friends are playing that game. | 1.0.0 |
-| [Recent Games At Bottom](Recent%20Games%20At%20Bottom/) | Docks the Recent Games row, with its name and playtime labels, to the bottom of the home screen. | 1.0.1 |
+| [Recent Games At Bottom](Recent%20Games%20At%20Bottom/) | Docks the Recent Games row, with its name and playtime labels, to the bottom of the home screen. | 1.0.2 |
 | [Titles Above Cards](Titles%20Above%20Cards/) | Moves game titles above the tiles and hides the now redundant Recent Games heading. | 1.0.0 |
+
+> **Note**: enabling `Recent Games At Bottom` hides the home tabbed content area below the docked row — the "Recently Updated" shelves (and anything else that normally sits under Recent Games) are removed entirely, so they no longer show through or overlap the cards. Turn the theme off to get them back.
 
 ## Install
 
