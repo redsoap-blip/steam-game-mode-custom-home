@@ -4,6 +4,10 @@ A small collection of standalone CSS Loader themes for Steam Game Mode / Big Pic
 
 [中文说明 / Chinese README](README.zh-CN.md)
 
+## Recommended companion
+
+The tab-hiding rule used by `Recent Games At Bottom` follows the approach of [No Home Tabs by Sims](https://deckthemes.com/themes/view?themeId=1f13929d-cb5b-4ab9-985f-a69504e055fe), a third-party DeckThemes theme from 2023 that is not published by this repository's author. Linked for reference only.
+
 ## Themes
 
 | Theme | What it does | Version |
