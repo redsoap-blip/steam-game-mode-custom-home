@@ -1,0 +1,112 @@
+{
+  "name": "Clean Gameview C",
+  "author": "Honchane",
+  "version": "1.7.1",
+  "manifest_version": 9,
+  "inject": {
+    "shared.css": [
+      "SP"
+    ]
+  },
+  "patches": {
+    "Play Bar Style": {
+      "type": "dropdown",
+      "default": "Transparent",
+      "values": {
+        "Transparent": {
+          "transparent.css": [
+            "SP"
+          ]
+        },
+        "Blur": {
+          "blur.css": [
+            "SP"
+          ]
+        },
+        "Connected with Body": {
+          "connected.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Alignment": {
+      "type": "dropdown",
+      "default": "Zoom-Center",
+      "values": {
+        "Zoom-Center": {},
+        "Zoom-Left": {
+          "alignments/left.css": [
+            "SP"
+          ]
+        },
+        "Zoom-Right": {
+          "alignments/right.css": [
+            "SP"
+          ]
+        },
+        "Contain": {
+          "alignments/contain.css": [
+            "SP"
+          ]
+        },
+        "Stretch": {
+          "alignments/stretch.css": [
+            "SP"
+          ]
+        }
+      }
+    },
+    "Show Steam Cloud": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "steamcloud.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Ignore Footer": {
+      "type": "checkbox",
+      "default": "No",
+      "values": {
+        "Yes": {
+          "--CGV-footer-height": [
+            "0px",
+            "SP"
+          ],
+          "--CGV-play-anim-height": [
+            "100vh",
+            "SP"
+          ]
+        },
+        "No": {
+          "--CGV-footer-height": [
+            "40px",
+            "SP"
+          ],
+          "--CGV-play-anim-height": [
+            "58vw",
+            "SP"
+          ]
+        }
+      }
+    },
+    "Lock Logo": {
+      "type": "checkbox",
+      "default": "Yes",
+      "values": {
+        "Yes": {
+          "lockedlogo.css": [
+            "SP"
+          ]
+        },
+        "No": {}
+      }
+    }
+  },
+  "id": "d2d23684-6190-4df2-ae69-867d6d9db8e3"
+}
