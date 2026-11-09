@@ -1,0 +1,23 @@
+/* C3 主窗口卡片配方 = 05 亮度阶梯 + 03 贴合短影 + 08 顶棱聚光，
+   落到 Home / 库里真实的封面瓦片上。
+   封面图会盖住内阴影，所以“抬升”用外层短影 + 1px 顶棱 + 轻微提亮实现。 */
+
+.BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox {
+  border-radius: 20px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.16) !important;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+  transition:
+    filter 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease !important;
+}
+
+.BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox.Focusable:focus,
+.BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox.gpfocus {
+  border-top-color: rgba(255, 255, 255, 0.34) !important;
+  filter: brightness(1.07) saturate(1.04) !important;
+  box-shadow:
+    0 18px 36px -18px rgba(0, 0, 0, 0.85),
+    0 2px 8px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.14) !important;
+}

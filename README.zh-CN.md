@@ -11,6 +11,7 @@
 | [Hide Friends Playing](Hide%20Friends%20Playing/) | 隐藏游戏卡片上「好友正在玩」的小头像。 | 1.0.0 |
 | [Recent Games At Bottom](Recent%20Games%20At%20Bottom/) | 把「最近游戏」一行（含名称与时长标签）贴到主界面底部。 | 1.0.2 |
 | [Titles Above Cards](Titles%20Above%20Cards/) | 把游戏标题移到卡片上方，并隐藏此时多余的「最近游戏」标题。 | 1.0.0 |
+| [Home Card Lift](Home%20Card%20Lift/) | 给主界面与库的封面瓦片加上 20px 圆角与顶部 1px 亮棱，聚焦时轻微提亮并带柔和外阴影。 | 1.0.1 |
 | [Clean Gameview C](Clean%20Gameview%20C/) | 清理游戏内界面：调整播放栏、游戏头图与 Logo，可切换播放栏样式、对齐方式，并可选显示 Steam Cloud 标识。 | 1.7.1 |
 
 > **注意**：`Recent Games At Bottom` 开启后会把 Recent Games 下方的整个 Home tabs 内容区隐藏掉——原本那排「最近已在此设备上更新」等 shelf 会被整体移除，所以不会再从卡片下面透出或叠在一起。关掉主题即可恢复。
