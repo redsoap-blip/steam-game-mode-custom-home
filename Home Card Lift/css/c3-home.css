@@ -1,23 +1,36 @@
-/* C3 主窗口卡片配方 = 05 亮度阶梯 + 03 贴合短影 + 08 顶棱聚光，
-   落到 Home / 库里真实的封面瓦片上。
-   封面图会盖住内阴影，所以“抬升”用外层短影 + 1px 顶棱 + 轻微提亮实现。 */
+/* Home Card Lift · 主窗口卡片（05 亮度阶梯 + 03 贴合短影 + 08 顶棱聚光）
+   独立主题：不引用任何 --tvdeck-* 变量，也不假设 tvdeck 开启。
+
+   关键修复：只有 border-radius 没有 overflow: hidden 时，Steam 的封面图
+   仍是矩形绘制，看起来是“裸图 + 硬边”。这里把 tvdeck 的卡片几何搬过来：
+   12px 圆角 + 裁剪 + 休止阴影；数值与 tvdeck 完全一致，两套同开时不会
+   出现两套不同的圆角或底色。 */
 
 .BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox {
-  border-radius: 20px !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+  /* 玻璃底：图片未铺满或加载中时露出，不参与图片区的视觉 */
+  background-color: rgba(28, 28, 31, 0.86) !important;
+  /* 顶棱高光：画在边框上，不会被封面图盖住 */
   border-top: 1px solid rgba(255, 255, 255, 0.16) !important;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+  /* 1px 圆角描边：outline 不占布局，也不受 overflow 裁剪 */
+  outline: 1px solid rgba(255, 255, 255, 0.08) !important;
+  outline-offset: -1px !important;
+  box-shadow: 0 8px 18px -6px rgba(0, 0, 0, 0.6) !important;
   transition:
+    transform 0.3s cubic-bezier(0.25, 1.3, 0.4, 1),
     filter 0.18s ease,
-    box-shadow 0.18s ease,
+    box-shadow 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
     border-color 0.18s ease !important;
 }
 
 .BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox.Focusable:focus,
 .BasicUI .appportrait_LibraryItemBox.appportrait_LibraryItemBox.gpfocus {
   border-top-color: rgba(255, 255, 255, 0.34) !important;
+  outline-color: rgba(255, 255, 255, 0.2) !important;
   filter: brightness(1.07) saturate(1.04) !important;
   box-shadow:
-    0 18px 36px -18px rgba(0, 0, 0, 0.85),
-    0 2px 8px rgba(0, 0, 0, 0.45),
-    0 0 0 1px rgba(255, 255, 255, 0.14) !important;
+    0 30px 42px -12px rgba(0, 0, 0, 0.78),
+    0 12px 20px rgba(0, 0, 0, 0.36) !important;
 }

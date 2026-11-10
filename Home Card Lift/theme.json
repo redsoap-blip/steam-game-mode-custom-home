@@ -1,9 +1,10 @@
 {
-  "name": "Home Card Lift",
-  "description": "Rounds the Home and Library cover tiles, adds a 1px highlight along the top edge, and lifts the focused tile with a slight brightening and a soft outer shadow.",
-  "version": "1.0.1",
-  "author": "Honchane",
+  "name": "home card lift",
+  "display_name": "Home Card Lift",
+  "version": "1.0.2",
   "manifest_version": 9,
+  "author": "Honchane",
+  "id": "6d8d6ebe-af95-4bf5-8787-1b7f16d88c87",
   "tabs": {
     "sp": [
       "SP"
@@ -16,7 +17,5 @@
     "css/c3-home.css": [
       "sp"
     ]
-  },
-  "patches": [],
-  "id": "6d8d6ebe-af95-4bf5-8787-1b7f16d88c87"
+  }
 }

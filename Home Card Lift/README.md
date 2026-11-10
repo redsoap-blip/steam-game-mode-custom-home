@@ -1,6 +1,6 @@
 # Home Card Lift
 
-Standalone CSS Loader theme that rounds the Home and Library cover tiles to 20px, adds a 1px highlight along the top edge, and gives the focused tile a slight brightness lift plus a soft outer shadow, so the cards read as lifted off the background.
+Standalone CSS Loader theme that rounds the Home and Library cover tiles to 12px, clips the cover art so the corners are actually cut, adds a 1px highlight along the top edge and a 1px inner contour, and gives the tiles a soft drop shadow — wider and softer once focused — so the cards read as lifted off the background. The geometry matches tvdeck's cards, so enabling both does not produce two different corner radii.
 
 ## Install
 
